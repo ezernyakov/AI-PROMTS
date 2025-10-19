@@ -77,8 +77,6 @@
 Создать читаемую, приоритезированную основу тест-класса для ревью перед реализацией.
 
 ## Пример:
-# TODO: Requirements for tests
-# {{requirements_block}}
 
 class TestCalculateDiscount:
     """
@@ -99,6 +97,6 @@ class TestCalculateDiscount:
         """Проверяет защиту от превышения скидки над суммой (ожидается 0 или ошибка)"""
         pass
 
-# TODO: expected factories/fixtures
-# - factories/order.py: OrderFactory(...)
-# - conftest.py: sample_order fixture(...)
+#TODO: expected factories/fixtures
+#factories/order.py: OrderFactory(...)
+#conftest.py: sample_order fixture(...)
