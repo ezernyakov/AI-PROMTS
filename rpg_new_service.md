@@ -15,26 +15,26 @@
 ### JSON-схема для RPG графа:
 ```json
 {
-"$schema": "RPG Graph v1",
-"project_name": "string",
-"project_description": "string",
-"nodes": [
-{
-"id": "string", // Уникальный идентификатор узла
-"type": "directory|file|class|function", // Тип узла
-"name": "string", // Имя узла (например, "data_loader.py")
-"path": "string", // Полный путь (например, "core/data_loader.py")
-"description": "string", // Назначение и ответственность
-"children": ["id1", "id2"] // ID дочерних узлов (для директорий и файлов)
-}
-],
-"edges": [
-{
-"source": "node_id", // ID узла-источника
-"target": "node_id", // ID узла-назначения
-"type": "data_flow|call|dependency", // Тип связи
-"description": "string", // Описание что передается/вызывается
-"data_type": "string" // Опционально: тип данных (если применимо)
-}
-]
+  "$schema": "RPG Graph v1",
+  "project_name": "string",
+  "project_description": "string",
+  "nodes": [
+    {
+      "id": "string", // Уникальный идентификатор узла
+      "type": "directory|file|class|function", // Тип узла
+      "name": "string", // Имя узла (например, "data_loader.py")
+      "path": "string", // Полный путь (например, "core/data_loader.py")
+      "description": "string", // Назначение и ответственность
+      "children": ["id1", "id2"] // ID дочерних узлов (для директорий и файлов)
+    }
+  ],
+  "edges": [
+    {
+      "source": "node_id", // ID узла-источника
+      "target": "node_id", // ID узла-назначения
+      "type": "data_flow|call|dependency", // Тип связи
+      "description": "string", // Описание что передается/вызывается
+      "data_type": "string" // Опционально: тип данных (если применимо)
+    }
+  ]
 }
