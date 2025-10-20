@@ -1,12 +1,12 @@
 Проанализируй существующие тесты в Django проекте:
 
-@Folder tests/
-@Folder */tests/
-@Folder */test_*.py
-@Folder conftest.py
-@File pytest.ini
-@File setup.cfg
-@File pyproject.toml
+    @Folder tests/
+    @Folder */tests/
+    @Folder */test_*.py
+    @Folder conftest.py
+    @File pytest.ini
+    @File setup.cfg 
+    @File pyproject.toml
 
 Создай детальный отчёт по следующей структуре:
 
@@ -60,12 +60,12 @@
 ### 3. КОНВЕНЦИИ КОДА:
 
 **Стиль именования:**
-```python
-# Примеры из существующих тестов:
-# - Формат test functions
-# - Формат test classes
-# - Формат fixtures
-# - Формат параметризованных тестов
+
+    # Примеры из существующих тестов:
+    # - Формат test functions
+    # - Формат test classes
+    # - Формат fixtures
+    # - Формат параметризованных тестов
 
 Структура тестов:
 
@@ -79,7 +79,7 @@ Imports:
     Относительные vs абсолютные импорты
     Группировка импортов
 
-4. ПРИМЕРЫ ПАТТЕРНОВ:
+### 4. ПРИМЕРЫ ПАТТЕРНОВ:
 
 Приведи 2-3 реальных примера из существующих тестов с объяснением:
 
